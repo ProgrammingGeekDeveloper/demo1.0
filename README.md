@@ -1,45 +1,85 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+# EVM Chain Platform
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+This platform encompasses key functionalities such as pooling, liquidity provision, staking (farming), and trading. We are in the process of developing a decentralized exchange (DEX) platform for traders within the EVM network, with plans to integrate an Automated Market Maker (AMM) mechanism.
 
----
+![alt text](public/ultrax1.png)
 
-## Edit a file
+![alt text](public/ultrax2.png)
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+## How to run the project?
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+#### 🚀 Are you ready to enter the Web3 Era? Let's explore a decentralized world today!
 
----
+### Clone
 
-## Create a file
+```
+   git clone https://bitbucket.org/moderncoindefi26/demo1.0
+```
+### Change directory
 
-Next, you’ll add a new file to this repository.
+```
+   cd demo1.0
+```
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
+### Install dependencies
 
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
+```bash
+  npm install
+```
+Use node version **18 or 20** to avoid dependency issues.
 
----
+### Start the project
 
-## Clone a repository
+```bash
+  npm start
+```
 
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
+## Introduction
 
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
+**Website:**
 
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+#### Overview of the Website
+
+The website offers a comprehensive platform for trading and managing cryptocurrency assets, featuring four main modules: **Trade**, **Dashboard**, **Earn**, and **Buy**. Each module is designed to provide users with essential tools and information for effective trading and investment.
+
+#### 1. Trade
+
+In the **Trade** section, users can access a detailed trading view graph for selected tokens. Key features include:
+
+- **Current Token Price**, **Token Volume**, and **High/Low Price** over the last 24 hours.
+- A comprehensive **Trading History** and an overview of the user's **Wallet Position**, including both **Sell** and **Buy Token Orders**.
+
+The **Exchange** section allows users to select tokens, specify amounts, set leverage, and choose the type of exchange action. The wallet's token amounts are automatically populated in the interface for convenience.
+
+#### 2. Dashboard
+
+The **Dashboard** provides a snapshot of the exchange's current status, displaying vital statistics such as:
+
+- **24h Volume**
+- **Open Interest**
+- **Long and Short Positions**
+- An overview of the **Liquidity Pool**
+- Total statistics for the exchange
+- Insights into governance tokens, specifically **UTX** and **ULP**
+- **ULP/UTX Index Composition**, which details the pairings within the liquidity pool.
+
+#### 3. Earn
+
+The **Earn** module focuses on staking UTX and ULP tokens to earn rewards (esUTX). Key features include:
+
+- An overview of the connected wallet, showing owned tokens (UTX, esUTX, ULP) and claimable rewards.
+- Options to buy tokens for staking, unstake tokens from pools, and claim rewards from each pool.
+- Detailed information on **Staking Pools**, including total staked tokens, reward token prices, total supply, and APR/multiplier points.
+- A **Vault Vesting** feature that allows users to convert rewards to UTX, deposit or withdraw rewards, and claim UTX.
+
+#### 4. Buy
+
+In the **Buy** section, users can easily purchase UTX or ULP using their preferred payment methods. 
+
+- **UTX** serves as the utility and governance token, accruing **30%** of the platform's generated fees.
+- **ULP** is the liquidity provider token, accruing **70%** of the platform's generated fees.
+
+Users can buy UTX from decentralized exchanges or centralized services, with links provided for easy access. Additionally, users can buy or sell ULP directly from the exchange, including transactions involving listed tokens like ETH, USDT, BTC, and BNB.
+
+This platform is designed to empower users with the tools and information necessary for successful trading and investment in the cryptocurrency market.
