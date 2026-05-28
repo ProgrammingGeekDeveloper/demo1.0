@@ -1,85 +1,50 @@
-
 # EVM Chain Platform
 
-This platform encompasses key functionalities such as pooling, liquidity provision, staking (farming), and trading. We are in the process of developing a decentralized exchange (DEX) platform for traders within the EVM network, with plans to integrate an Automated Market Maker (AMM) mechanism.
+The **EVM Chain Platform** is a decentralized finance (DeFi) ecosystem built for trading, staking, liquidity provision, and token management. It is designed as a decentralized exchange (DEX) with future integration of an Automated Market Maker (AMM) mechanism for seamless on-chain trading within the EVM network.
 
-![alt text](public/ultrax1.png)
+---
 
-![alt text](public/ultrax2.png)
+## 🚀 Features
 
-## How to run the project?
+### 🔄 Trading System
+- Real-time token price charts
+- Trading history and wallet position tracking
+- Buy/Sell orders with leverage options
+- Support for major tokens (ETH, USDT, BTC, BNB)
 
-#### 🚀 Are you ready to enter the Web3 Era? Let's explore a decentralized world today!
+### 📊 Dashboard
+- 24h trading volume tracking
+- Open interest overview
+- Long/short position analysis
+- Liquidity pool statistics
+- Governance tokens: **UTX** and **ULP**
+- ULP/UTX index composition insights
 
-### Clone
+### 💰 Earn (Staking & Farming)
+- Stake **UTX** and **ULP** tokens to earn rewards (esUTX)
+- Claimable rewards dashboard
+- Pool statistics (APR, total staked, multipliers)
+- Vault vesting system for reward conversion and withdrawals
 
-```
-   git clone https://bitbucket.org/moderncoindefi26/demo1.0
-```
-### Change directory
+### 🛒 Buy Module
+- Buy UTX and ULP tokens directly
+- Support for decentralized and centralized exchanges
+- Automated token allocation from platform fees:
+  - **UTX:** 30% of platform fees (utility + governance)
+  - **ULP:** 70% of platform fees (liquidity provider token)
 
-```
-   cd demo1.0
-```
+---
 
-### Install dependencies
+## 🖼️ Screenshots
 
+![Screenshot 1](public/ultrax1.png)
+![Screenshot 2](public/ultrax2.png)
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
 ```bash
-  npm install
-```
-Use node version **18 or 20** to avoid dependency issues.
-
-### Start the project
-
-```bash
-  npm start
-```
-
-## Introduction
-
-**Website:**
-
-#### Overview of the Website
-
-The website offers a comprehensive platform for trading and managing cryptocurrency assets, featuring four main modules: **Trade**, **Dashboard**, **Earn**, and **Buy**. Each module is designed to provide users with essential tools and information for effective trading and investment.
-
-#### 1. Trade
-
-In the **Trade** section, users can access a detailed trading view graph for selected tokens. Key features include:
-
-- **Current Token Price**, **Token Volume**, and **High/Low Price** over the last 24 hours.
-- A comprehensive **Trading History** and an overview of the user's **Wallet Position**, including both **Sell** and **Buy Token Orders**.
-
-The **Exchange** section allows users to select tokens, specify amounts, set leverage, and choose the type of exchange action. The wallet's token amounts are automatically populated in the interface for convenience.
-
-#### 2. Dashboard
-
-The **Dashboard** provides a snapshot of the exchange's current status, displaying vital statistics such as:
-
-- **24h Volume**
-- **Open Interest**
-- **Long and Short Positions**
-- An overview of the **Liquidity Pool**
-- Total statistics for the exchange
-- Insights into governance tokens, specifically **UTX** and **ULP**
-- **ULP/UTX Index Composition**, which details the pairings within the liquidity pool.
-
-#### 3. Earn
-
-The **Earn** module focuses on staking UTX and ULP tokens to earn rewards (esUTX). Key features include:
-
-- An overview of the connected wallet, showing owned tokens (UTX, esUTX, ULP) and claimable rewards.
-- Options to buy tokens for staking, unstake tokens from pools, and claim rewards from each pool.
-- Detailed information on **Staking Pools**, including total staked tokens, reward token prices, total supply, and APR/multiplier points.
-- A **Vault Vesting** feature that allows users to convert rewards to UTX, deposit or withdraw rewards, and claim UTX.
-
-#### 4. Buy
-
-In the **Buy** section, users can easily purchase UTX or ULP using their preferred payment methods. 
-
-- **UTX** serves as the utility and governance token, accruing **30%** of the platform's generated fees.
-- **ULP** is the liquidity provider token, accruing **70%** of the platform's generated fees.
-
-Users can buy UTX from decentralized exchanges or centralized services, with links provided for easy access. Additionally, users can buy or sell ULP directly from the exchange, including transactions involving listed tokens like ETH, USDT, BTC, and BNB.
-
-This platform is designed to empower users with the tools and information necessary for successful trading and investment in the cryptocurrency market.
+git clone https://github.com/ProgrammingGeekDeveloper/demo1.0.git
+cd demo1.0
